@@ -1,0 +1,25 @@
+{
+  "name": "braintree_api",
+  "version": "1.0.0",
+  "description": "Braintree Payment APIs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adwaittathe/BrainTree_API.git"
+  },
+  "author": "Adwait",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adwaittathe/BrainTree_API/issues"
+  },
+  "homepage": "https://github.com/adwaittathe/BrainTree_API#readme",
+  "dependencies": {
+    "braintree": "^2.21.0",
+    "body-parser": "^1.19.0",
+    "nodemon": "^1.19.2",
+    "express": "^4.17.1"
+  }
+}
